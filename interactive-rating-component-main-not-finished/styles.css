@@ -94,6 +94,11 @@ p {
     color: #fff;
 }
 
+.selected-button {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
 .sub {
     display: flex;
     align-items: center;
@@ -116,6 +121,10 @@ p {
 .sub-btn:hover {
     background-color: #fff;
     color: hsl(25, 97%, 53%);
+}
+
+.green {
+    background-color: greenyellow;
 }
 
 .reply-container {
@@ -183,4 +192,8 @@ footer {
         width: 90%;
         margin-top: 3rem;
     }
+}
+
+.hidden {
+    display: none;
 }
